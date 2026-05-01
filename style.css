@@ -82,7 +82,7 @@ body {
 
 .title {
     font-family: var(--font-heading);
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     font-weight: 700;
     color: var(--text-blue);
     margin-bottom: 50px;
@@ -154,7 +154,7 @@ body {
 
 /* --- Update Teks Halaman 2 --- */
 .intro-text {
-    font-size: 0.5rem; /* Dikecilkan sedikit agar muat rapi */
+    font-size: 0.8rem; /* Dikecilkan sedikit agar muat rapi */
     font-weight: 500;
     line-height: 1.4;
     margin-bottom: 15px;
@@ -171,7 +171,7 @@ body {
 }
 
 .closing-text {
-    font-size: 0.8rem;
+    font-size: 0.84rem;
     font-weight: 500;
     line-height: 1.4;
     margin-bottom: 30px;
