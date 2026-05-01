@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Halal Bihalal</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Import Google Fonts: Playfair Display untuk judul, Poppins untuk teks biasa -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome untuk Icon (Kalender, Lokasi, Jam, Panah) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="app-wrapper">
+        <!-- HALAMAN 1 (Cover) -->
+        <section id="page1" class="page active">
+            <h1 class="title">undangan</h1>
+            
+            <div class="center-card-outline">
+                <!-- Tombol Interaktif -->
+                <button id="nextBtn" class="btn-next" aria-label="Halaman Selanjutnya">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+            
+            <!-- Tempat untuk background awan di bawah (bisa diganti img nanti) -->
+            <div class="clouds-bg"></div>
+        </section>
+
+        <!-- HALAMAN 2 (Isi Undangan) -->
+        <section id="page2" class="page next-page">
+            <div class="content-container">
+                
+                <!-- Ganti src dengan gambar kaligrafi Assalamu'alaikum milikmu -->
+                <div class="arabic-greeting">
+                    <img src="kaligrafi-placeholder.png" alt="Assalamu'alaikum warahmatullahi wabarakatuh" style="width: 80%; max-width: 250px; opacity: 0.8;">
+                </div>
+
+                <p class="intro-text">Kami mengundang Bapak/Ibu<br>untuk hadir dalam acara</p>
+                
+                <h2 class="main-event">Halal Bihalal</h2>
+
+                <!-- Info Box (Grid Layout) -->
+                <div class="info-box">
+                    <div class="info-item">
+                        <i class="fa-regular fa-calendar"></i>
+                        <p>Kamis, 23<br>Maret 2026</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Rumah pak<br>kasman</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>8:00 s/d<br>11:00 WIB</p>
+                    </div>
+                </div>
+
+                <p class="closing-text">Mari hadir dan berbagi<br>keceriaan dalam kebersamaan.<br>Terima kasih.</p>
+                
+                <!-- Ganti src dengan gambar ilustrasi bayi & mainan milikmu -->
+                <div class="illustration-container">
+                    <img src="baby-illustration-placeholder.png" alt="Ilustrasi Bayi" class="bottom-illustration">
+                </div>
+
+            </div>
+            <div class="clouds-bg"></div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
